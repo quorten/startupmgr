@@ -1,0 +1,94 @@
+Welcome to the optimized startup manager!  This system helps you get to work on what you need to do quickly and efficiently by deploying a task-based startup system.
+
+Here are your options:
+Fastest startup, autoload nothing:
+Offline startup, load minimal convienences (10 seconds):
+Custom startup, choose what to load:
+Internet startup, load necessary tools
+Load everything (5-7 minutes):
+	Processes:
+	Adobe Reader Speed Launch (reader_sl.exe)
+"C:\Program Files\Adobe\Acrobat 7.0\Reader\reader_sl.exe"
+	Kodak EasyShare (EasyShare.exe -hx)
+"C:\Program Files\Kodak\Kodak EasyShare software\bin\EasyShare.exe" -hx
+	CTF Loader (ctfmon.exe)
+C:\WINDOWS\system32\ctfmon.exe
+	Windows messenger (msmsgs.exe /background)
+"C:\Program Files\Messenger\msmsgs.exe" /background
+	GoogleToolbarNotifier.exe
+"C:\Program Files\Google\GoogleToolbarNotifier\GoogleToolbarNotifier.exe"
+	Modem Messaging Applet (BCMMSG.exe)
+	Dell Quickset (quickset.exe)
+C:\Program Files\Dell\QuickSet\quickset.exe
+	Disc burning software (tfswctl.exe, sgtray.exe /r)
+C:\WINDOWS\system32\dla\tfswctrl.exe
+"C:\Program Files\Common Files\Sonic\Update Manager\sgtray.exe" /r
+	Accessability hotkey commands (hkcmd.exe)
+C:\WINDOWS\system32\hkcmd.exe
+	Graphics mode tray icon (igfxtray.exe)
+C:\WINDOWS\system32\igfxtray.exe
+	Microsoft IntelliPoint, unnecessary (point32.exe)
+"C:\Program Files\Microsoft IntelliPoint\point32.exe"
+	McAfee Antivirus (mcagent.exe /runkey)
+"C:\Program Files\McAfee.com\Agent\mcagent.exe" /runkey
+	PowerCinema Resident Program for Dell (PCMService.exe)
+"C:\Program Files\Dell\Media Experience\PCMService.exe"
+	QuickTime Task (qttask.exe -atboottime)
+"C:\Program Files\QuickTime\qttask.exe" -atboottime
+	Java update service, (jusched.exe)
+"C:\Program Files\Common Files\Java\Java Update\jusched.exe"
+	Synaptics mouse drivers, use only with Air Flow mouse (SynTPEnh.exe, SynTPLpr.exe)
+C:\Program Files\Synaptics\SynTP\SynTPEnh.exe
+C:\Program Files\Synaptics\SynTP\SynTPLpr.exe
+	Real Player updater (realsched.exe -osboot)
+"C:\Program Files\Common Files\Real\Update_OB\realsched.exe"  -osboot
+
+	Services:
+	Apple Bonjor zero-configuration networking protocol (mDNSResponder.exe)
+Bonjour Service
+	Windows Automatic Updates (svchost.exe)
+wuauserv
+	Java Quick Starter (jqs.exe)
+JavaQuickStarterService
+	Machine Debug Manager (MDM.EXE)
+MDM
+	McAfee Firewall Core Service (mfefire.exe)
+mfefire
+	McAfee Network Agent (McSvHost.exe)
+MCNASvc
+	McAfee Personal Firewall Service (McSvHost.exe)
+MCMPFSvc
+	McAfee Proxy Service (McSvHost.exe)
+McProxy
+	McAfee Services (McSvHost.exe)
+mcmscsvc
+	McAfee SiteAdvisor Service (McSvHost.exe)
+McAfee SiteAdvisor Service
+	McAfee Validation Trust Protection Service (mfevtps.exe)
+mfevtp
+	McAfee VirusScan Announcer (McSvHost.exe)
+McNaiAnn
+	McShield (mcshield.exe)
+
+	Services that probably don't need to be disabled:
+	Computer Browser (svchost.exe)
+	Cryptographics Services (schhost.exe)
+	DHCP Client (svchost.exe)
+	Distributed Link Tracking Client, NTFS Networked file links, unnecessary (svchost.exe)
+	DNS Client (svchost.exe)
+	Error Reporting Service (svchost.exe)
+	Help and Support (svchost.exe)
+	HID Input Service (svchost.exe)
+	IPSEC Services (lsass.exe)
+	Remote Procedure Call (RPC) (svchost.exe)
+	Wireless Zero Configuration (svchost.exe)
+
+You can also enable background processes and services individually only when you need them.
+
+Typically, on an everyday basis, you will not use all of the tools typically loaded on startup in rapid succession.  Because most of the loaded tools will be unnecessary, they only slow down startup on your computer.  This problem can be solved by selectively enabling the tools only when you find you are missing them.
+
+Other questions:
+Q: Why is World Wide Web access so slow:
+A: This computer does not have a network card, but instead offloads all packet management functions to the CPU.  Therefore, network access will take up more CPU resources than usual.  On top of that, McAfee Firewall also scans the network activity, which takes up more CPU resources, and consequentially slows down network communications in the process.  Also, Firefox can use high memory and CPU resources during operation, slowing down World Wide Web access even more.
+
+By the way, the Internet and the World Wide Web are not the same; the Internet encapsulates all global communications applications, such as FTP, that occur across wide area networks, but the World Wide Web only encapsulates website access across wide area networks.
