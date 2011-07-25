@@ -1,0 +1,55 @@
+Processes
+
+Adobe Reader Speed Launch (reader_sl.exe)	"C:\Program Files\Adobe\Acrobat 7.0\Reader\reader_sl.exe"
+Kodak EasyShare (EasyShare.exe)	"C:\Program Files\Kodak\Kodak EasyShare software\bin\EasyShare.exe" -hx
+CTF Loader (ctfmon.exe)	"C:\WINDOWS\system32\ctfmon.exe"
+Windows messenger (msmsgs.exe)	"C:\Program Files\Messenger\msmsgs.exe" /background
+GoogleToolbarNotifier.exe	"C:\Program Files\Google\GoogleToolbarNotifier\GoogleToolbarNotifier.exe"
+Modem Messaging Applet (BCMMSG.exe)	"BCMMSG.exe"
+Dell Quickset (quickset.exe)	"C:\Program Files\Dell\QuickSet\quickset.exe"
+Sonic disc burning software (tfswctl.exe, sgtray.exe)	"C:\WINDOWS\system32\dla\tfswctrl.exe"
+Sonic update manager (sgtray.exe)	"C:\Program Files\Common Files\Sonic\Update Manager\sgtray.exe" /r
+Accessability hotkey commands (hkcmd.exe)	"C:\WINDOWS\system32\hkcmd.exe"
+Graphics mode tray icon (igfxtray.exe)	"C:\WINDOWS\system32\igfxtray.exe"
+Microsoft IntelliPoint, unnecessary (point32.exe)	"C:\Program Files\Microsoft IntelliPoint\point32.exe"
+McAfee Antivirus (mcagent.exe)	"C:\Program Files\McAfee.com\Agent\mcagent.exe" /runkey
+PowerCinema Resident Program for Dell (PCMService.exe)	"C:\Program Files\Dell\Media Experience\PCMService.exe"
+QuickTime Task (qttask.exe)	"C:\Program Files\QuickTime\qttask.exe" -atboottime
+Java update service, (jusched.exe)	"C:\Program Files\Common Files\Java\Java Update\jusched.exe"
+Synaptics touchpad driver 1	"C:\Program Files\Synaptics\SynTP\SynTPEnh.exe"
+Synaptics touchpad driver 2	"C:\Program Files\Synaptics\SynTP\SynTPLpr.exe"
+Real Player updater (realsched.exe)	"C:\Program Files\Common Files\Real\Update_OB\realsched.exe"  -osboot
+
+Services
+
+Apple Bonjor zero-configuration networking protocol (mDNSResponder.exe)	Bonjour Service
+Windows Automatic Updates (svchost.exe)	wuauserv
+Java Quick Starter (jqs.exe)	JavaQuickStarterService
+Machine Debug Manager (MDM.EXE)	MDM
+
+Checklist
+
+X X
+O O
+X X
+O O
+O O
+O O
+O O
+X X
+X X
+X X
+X X
+O O
+X X
+X X
+O O
+O X
+X X
+X X
+O X
+
+O O
+O O
+O O
+O O
