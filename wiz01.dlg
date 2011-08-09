@@ -1,0 +1,14 @@
+WIZ_01 DIALOGEX 0, 0, 317, 193
+CAPTION "Startup Manager"
+STYLE WS_POPUP | WS_SYSMENU | WS_CAPTION | WS_BORDER | DS_SHELLFONT
+FONT 8, "MS Shell Dlg"
+{
+	LTEXT "Welcome to the optimized startup manager! This system helps you get to work on what you need to do quickly and efficiently by deploying a task-based startup system.", D_STATIC1, 8, 8, 301, 16
+	LTEXT "However, startup cannot be made as fast as it could be due to problems with selectively starting McAfee Antivirus.", D_STATIC6, 8, 24, 301, 16
+	GROUPBOX "Choose a task", D_STATIC2, 53, 64, 255, 72
+	AUTORADIOBUTTON "Fastest startup, autoload nothing", D_LOADNOTHING, 62, 77, 159, 8, BS_AUTORADIOBUTTON | WS_TABSTOP | WS_GROUP
+	AUTORADIOBUTTON "Offline startup, load minimal convienences (10 seconds)", D_OFFLLOAD, 62, 91, 239, 8
+	AUTORADIOBUTTON "Internet startup, load necessary tools", D_NETSTART, 62, 105, 163, 8
+	AUTORADIOBUTTON "Load everything (5-7 minutes)", D_LOADALL, 62, 119, 138, 8
+	AUTOCHECKBOX "Customize startup", D_CUSTOMIZE, 217, 156, 91, 8
+}
